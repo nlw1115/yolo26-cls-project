@@ -100,37 +100,25 @@ internal static class ResultRenderer
         DetectionRenderOptions options,
         DrawingMetrics metrics)
     {
-        var annotations = BuildAnnotations(detection, options, metrics);
-        if (annotations.Count == 0)
+        var scoreText = options.ShowScores ? detection.DisplayScore : null;
+        var labelText = options.ShowLabels ? detection.DisplayLabel : null;
+
+        if (string.IsNullOrWhiteSpace(scoreText) && string.IsNullOrWhiteSpace(labelText))
         {
             return;
         }
 
-        QueueInlineTextAnnotations(textCommands, canvas, detection.BoundingBox, annotations, metrics.TextGap, metrics.AnnotationOffset);
-    }
-
-    private static List<AnnotationText> BuildAnnotations(Detection detection, DetectionRenderOptions options, DrawingMetrics metrics)
-    {
-        var annotations = new List<AnnotationText>(2);
-        if (options.ShowLabels && !string.IsNullOrWhiteSpace(detection.DisplayClassName))
+        var texts = new List<AnnotationText>(2);
+        if (!string.IsNullOrWhiteSpace(scoreText))
         {
-            annotations.Add(CreateAnnotationText(
-                detection.DisplayClassName,
-                options.LabelColor,
-                metrics.LabelFontScale,
-                metrics.LabelTextThickness));
+            texts.Add(CreateAnnotationText(scoreText, options.ScoreColor, metrics.ScoreFontScale, metrics.ScoreTextThickness));
+        }
+        if (!string.IsNullOrWhiteSpace(labelText))
+        {
+            texts.Add(CreateAnnotationText(labelText, options.LabelColor, metrics.LabelFontScale, metrics.LabelTextThickness));
         }
 
-        if (options.ShowScores)
-        {
-            annotations.Add(CreateAnnotationText(
-                detection.DisplayScore,
-                options.ScoreColor,
-                metrics.ScoreFontScale,
-                metrics.ScoreTextThickness));
-        }
-
-        return annotations;
+        QueueVerticalTextAnnotations(textCommands, canvas, detection.BoundingBox, texts, metrics.TextGap, metrics.AnnotationOffset);
     }
 
     private static void DrawGroundTruthAnnotation(
@@ -198,6 +186,43 @@ internal static class ResultRenderer
                 new RectangleF(x, y, annotation.Size.Width, annotation.Size.Height)));
 
             x += annotation.Size.Width + textGap;
+        }
+    }
+
+    private static void QueueVerticalTextAnnotations(
+        List<PositionedText> textCommands,
+        Mat canvas,
+        Rect anchorBox,
+        IReadOnlyList<AnnotationText> annotations,
+        int textGap,
+        int annotationOffset)
+    {
+        if (annotations.Count == 0)
+        {
+            return;
+        }
+
+        var x = Math.Max(0, anchorBox.Left);
+
+        var y = anchorBox.Top - annotationOffset;
+        foreach (var annotation in annotations)
+        {
+            y -= annotation.Size.Height;
+            if (y < 0)
+            {
+                y = Math.Min(
+                    Math.Max(0, anchorBox.Top + annotationOffset),
+                    Math.Max(0, canvas.Height - annotation.Size.Height - 1));
+            }
+
+            textCommands.Add(new PositionedText(
+                annotation.Text,
+                annotation.Color,
+                annotation.FontSizePx,
+                annotation.TextThickness,
+                new RectangleF(x, y, annotation.Size.Width, annotation.Size.Height)));
+
+            y -= textGap;
         }
     }
 

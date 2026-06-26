@@ -23,10 +23,7 @@ internal sealed class OpenVinoClassifier : IDisposable
 
         _core = new OpenVinoSharp.Core();
         var model = _core.read_model(config.ModelPath, "");
-        _compiled = _core.compile_model(
-            model,
-            "CPU",
-            new Dictionary<string, string> { { "INFERENCE_PRECISION_HINT", "f32" } });
+        _compiled = _core.compile_model(model, "CPU");
         _inferRequest = _compiled.create_infer_request();
         model.Dispose();
         Warmup();

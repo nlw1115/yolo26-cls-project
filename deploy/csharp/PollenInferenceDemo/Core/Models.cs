@@ -11,10 +11,10 @@ public sealed record Detection(
     string? ClassifierClassName = null,
     float? ClassifierConfidence = null)
 {
-    public string DisplayClassName => string.IsNullOrWhiteSpace(ClassifierClassName) ? ClassName : ClassifierClassName!;
-    public string DisplayScore => ClassifierConfidence.HasValue
-        ? $"cls {ClassifierConfidence.Value:F2} det {Confidence:F2}"
-        : $"{Confidence:F2}";
+    public string DisplayScore => $"{Confidence:F2}";
+    public string DisplayLabel => ClassifierConfidence.HasValue
+        ? $"{ClassifierClassName} {ClassifierConfidence.Value:F2}"
+        : ClassName;
 }
 
 public sealed record ClassificationResult(
