@@ -1,0 +1,118 @@
+{
+  "version": "6.1.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "桃金娘科",
+      "points": [
+        [
+          432.75,
+          80.75
+        ],
+        [
+          485.25,
+          138.25
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "紫草科",
+      "points": [
+        [
+          181.038961,
+          93.07393000000002
+        ],
+        [
+          208.311688,
+          124.202335
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "紫草科",
+      "points": [
+        [
+          128.311688,
+          138.210117
+        ],
+        [
+          161.81818200000004,
+          172.76264599999996
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "紫草科",
+      "points": [
+        [
+          345.974026,
+          149.416342
+        ],
+        [
+          379.7402599999999,
+          189.883268
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "紫草科",
+      "points": [
+        [
+          165.0,
+          128.0
+        ],
+        [
+          196.0,
+          167.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "mask",
+      "flags": {},
+      "mask": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAoCAAAAAC6QqdFAAAAi0lEQVR4nMWU2wrAIAxDk/7/P2ewm1U6szHY+qTmkEZRiaEIQMO8mqkAmMjG8ErGTvBSxkbERAcPgLW+CjHTcbaYVBgDGAcijAF8BjoAvwN0gL4IKetgiOhfwVi6F1J6v01ZB9WqHpykHICKaG+zJtYVmyFf6v6C747ZoQzatcjEMe4zNKL6xPJCIxeJ9htAn6I0RwAAAABJRU5ErkJggg=="
+    },
+    {
+      "label": "桃金娘科",
+      "points": [
+        [
+          165.0,
+          586.0
+        ],
+        [
+          196.0,
+          627.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "mask",
+      "flags": {},
+      "mask": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAqCAAAAAD3igZOAAAAhklEQVR4nN1UywrAIAxLyv7/lztEUen6OPS2XhxJlgSREmc4D72gDeJ8GAU/tJGIx4NWkIx4BrgQcXkcLIxgJUAp4BYwVTQiMC0kTFiTRrDbAcOidmArAuyWBNh2wC8E2nVQPDmNuiTjR6tFh7VExKwkyw8HV7HBIOL8NCvGO8y7h2xPOnVeGKkQWqRjJ/sAAAAASUVORK5CYII="
+    }
+  ],
+  "imagePath": "Group-0228-colors3.jpg",
+  "imageData": null,
+  "imageHeight": 640,
+  "imageWidth": 640
+}

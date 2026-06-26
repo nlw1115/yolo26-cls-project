@@ -1,0 +1,8 @@
+<Project>
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <PollenAlgorithmVersion>1.0.0</PollenAlgorithmVersion>
+    <PollenAlgorithmAssemblyVersion>1.0.0.0</PollenAlgorithmAssemblyVersion>
+    <PollenAlgorithmFileVersion>1.0.0.0</PollenAlgorithmFileVersion>
+  </PropertyGroup>
+</Project>

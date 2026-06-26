@@ -1,0 +1,52 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>PollenInference</AssemblyName>
+    <RootNamespace>PollenInference</RootNamespace>
+    <PlatformTarget>x64</PlatformTarget>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <DebugType>embedded</DebugType>
+    <Version>$(PollenAlgorithmVersion)</Version>
+    <AssemblyVersion>$(PollenAlgorithmAssemblyVersion)</AssemblyVersion>
+    <FileVersion>$(PollenAlgorithmFileVersion)</FileVersion>
+    <InformationalVersion>$(PollenAlgorithmVersion)</InformationalVersion>
+    <IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OpenCvSharp4" Version="4.13.0.20260330" />
+    <PackageReference Include="OpenCvSharp4.runtime.win" Version="4.13.0.20260302" />
+    <PackageReference Include="OpenVINO.CSharp.API" Version="2025.4.0" />
+    <PackageReference Include="OpenVINO.CSharp.Windows" Version="2024.0.0.1" />
+    <PackageReference Include="OpenVINO.runtime.win" Version="2026.0.0" />
+    <PackageReference Include="Costura.Fody" Version="6.0.0" PrivateAssets="all" />
+    <PackageReference Include="Fody" Version="6.9.3" PrivateAssets="all" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="..\PollenInferenceDemo\Core\AppConfig.cs" Link="Core\AppConfig.cs" />
+    <Compile Include="..\PollenInferenceDemo\Core\ImagePreprocessor.cs" Link="Core\ImagePreprocessor.cs" />
+    <Compile Include="..\PollenInferenceDemo\Core\Models.cs" Link="Core\Models.cs" />
+    <Compile Include="..\PollenInferenceDemo\Core\Postprocess.cs" Link="Core\Postprocess.cs" />
+    <Compile Include="..\PollenInferenceDemo\Engine\DetectorFactory.cs" Link="Engine\DetectorFactory.cs" />
+    <Compile Include="..\PollenInferenceDemo\Engine\OpenVinoClassifier.cs" Link="Engine\OpenVinoClassifier.cs" />
+    <Compile Include="..\PollenInferenceDemo\Engine\OpenVinoDetector.cs" Link="Engine\OpenVinoDetector.cs" />
+    <Compile Include="..\PollenInferenceDemo\Services\InferenceService.cs" Link="Services\InferenceService.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="..\PollenInferenceDemo\assets\classes.txt" LogicalName="PollenInference.BundledAssets.classes.txt" />
+    <EmbeddedResource Include="..\..\..\artifacts\models\openvino_fp16\best_20260417_170857_fp16\best.xml" LogicalName="PollenInference.BundledAssets.model.openvino.xml" Condition="Exists('..\..\..\artifacts\models\openvino_fp16\best_20260417_170857_fp16\best.xml')" />
+    <EmbeddedResource Include="..\..\..\artifacts\models\openvino_fp16\best_20260417_170857_fp16\best.bin" LogicalName="PollenInference.BundledAssets.model.openvino.bin" Condition="Exists('..\..\..\artifacts\models\openvino_fp16\best_20260417_170857_fp16\best.bin')" />
+    <EmbeddedResource Include="$(NuGetPackageRoot)opencvsharp4.runtime.win\4.13.0.20260302\runtimes\win-x64\native\*.dll" Link="Native\%(Filename)%(Extension)" />
+    <EmbeddedResource Include="$(NuGetPackageRoot)openvino.runtime.win\2026.0.0\runtimes\win-x64\native\*.dll" Link="Native\%(Filename)%(Extension)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="FodyWeavers.xml" />
+  </ItemGroup>
+
+</Project>

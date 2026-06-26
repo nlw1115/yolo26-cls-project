@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OpenCvSharp4" Version="4.13.0.20260330" />
+    <PackageReference Include="OpenCvSharp4.runtime.win" Version="4.13.0.20260302" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PollenInference\PollenInference.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Core\AppConfig.cs" />
+    <Compile Remove="Core\ImagePreprocessor.cs" />
+    <Compile Remove="Core\Models.cs" />
+    <Compile Remove="Core\Postprocess.cs" />
+    <Compile Remove="Engine\DetectorFactory.cs" />
+    <Compile Remove="Engine\OpenVinoClassifier.cs" />
+    <Compile Remove="Engine\OpenVinoDetector.cs" />
+    <Compile Remove="Services\InferenceService.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="UI\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+</Project>

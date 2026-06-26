@@ -1,0 +1,129 @@
+{
+  "version": "5.5.0",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "桃金娘科",
+      "points": [
+        [
+          317.75,
+          124.0
+        ],
+        [
+          357.25,
+          171.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "桃金娘科",
+      "points": [
+        [
+          352.0,
+          226.75
+        ],
+        [
+          390.0,
+          280.25
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "桃金娘科",
+      "points": [
+        [
+          490.50000000000006,
+          330.50000000000006
+        ],
+        [
+          536.5,
+          383.5
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "桃金娘科",
+      "points": [
+        [
+          209.00000000000003,
+          363.25
+        ],
+        [
+          247.0,
+          410.75
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "桃金娘科",
+      "points": [
+        [
+          16.5,
+          484.25
+        ],
+        [
+          51.5,
+          520.75
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "桃金娘科",
+      "points": [
+        [
+          304.0,
+          538.25
+        ],
+        [
+          349.0,
+          607.75
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "棕榈科",
+      "points": [
+        [
+          119.5,
+          248.25
+        ],
+        [
+          168.5,
+          311.75
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "Group-0103-colors3.jpg",
+  "imageData": null,
+  "imageHeight": 640,
+  "imageWidth": 640
+}

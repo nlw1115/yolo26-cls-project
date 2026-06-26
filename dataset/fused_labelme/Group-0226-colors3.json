@@ -1,0 +1,95 @@
+{
+  "version": "5.5.0",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "桃金娘科",
+      "points": [
+        [
+          524.0,
+          187.5
+        ],
+        [
+          568.0,
+          231.5
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "桃金娘科",
+      "points": [
+        [
+          561.5,
+          266.5
+        ],
+        [
+          602.5,
+          317.5
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "桃金娘科",
+      "points": [
+        [
+          207.99999999999997,
+          268.75
+        ],
+        [
+          250.0,
+          329.25
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "桃金娘科",
+      "points": [
+        [
+          313.5,
+          296.0
+        ],
+        [
+          370.50000000000006,
+          356.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "紫草科",
+      "points": [
+        [
+          237.66233800000003,
+          449.182879
+        ],
+        [
+          269.87013,
+          484.669261
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "Group-0226-colors3.jpg",
+  "imageData": null,
+  "imageHeight": 640,
+  "imageWidth": 640
+}

@@ -1,0 +1,129 @@
+{
+  "version": "5.5.0",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "棕榈科",
+      "points": [
+        [
+          239.480519,
+          85.91439699999998
+        ],
+        [
+          269.87013,
+          126.38132299999998
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "棕榈科",
+      "points": [
+        [
+          508.25,
+          201.5
+        ],
+        [
+          531.75,
+          227.5
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "棕榈科",
+      "points": [
+        [
+          270.649351,
+          620.700389
+        ],
+        [
+          290.12987,
+          639.688716
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "紫草科",
+      "points": [
+        [
+          270.38961,
+          168.715953
+        ],
+        [
+          329.61039,
+          210.428016
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "紫草科",
+      "points": [
+        [
+          256.103896,
+          208.871595
+        ],
+        [
+          291.168831,
+          258.365759
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "紫草科",
+      "points": [
+        [
+          290.649351,
+          210.116732
+        ],
+        [
+          322.077922,
+          251.82879399999996
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "紫草科",
+      "points": [
+        [
+          415.0,
+          412.75
+        ],
+        [
+          452.0,
+          454.25000000000006
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "Group-0065-colors3.jpg",
+  "imageData": null,
+  "imageHeight": 640,
+  "imageWidth": 640
+}

@@ -1,0 +1,146 @@
+{
+  "version": "5.5.0",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "桃金娘科",
+      "points": [
+        [
+          161.50000000000003,
+          134.25
+        ],
+        [
+          205.5,
+          187.75000000000003
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "桃金娘科",
+      "points": [
+        [
+          590.5,
+          144.0
+        ],
+        [
+          621.5,
+          186.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "桃金娘科",
+      "points": [
+        [
+          280.5,
+          274.0
+        ],
+        [
+          316.5,
+          317.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "桃金娘科",
+      "points": [
+        [
+          554.75,
+          475.99999999999994
+        ],
+        [
+          588.25,
+          520.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "桃金娘科",
+      "points": [
+        [
+          49.25000000000001,
+          531.25
+        ],
+        [
+          88.75,
+          578.75
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "桃金娘科",
+      "points": [
+        [
+          109.5,
+          543.75
+        ],
+        [
+          139.5,
+          587.25
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "紫草科",
+      "points": [
+        [
+          581.25,
+          11.25
+        ],
+        [
+          609.75,
+          40.75
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "紫草科",
+      "points": [
+        [
+          194.545455,
+          448.249027
+        ],
+        [
+          229.87012999999996,
+          482.801556
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "Group-0051-colors3.jpg",
+  "imageData": null,
+  "imageHeight": 640,
+  "imageWidth": 640
+}
