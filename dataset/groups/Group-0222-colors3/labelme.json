@@ -1,0 +1,64 @@
+{
+  "version": "6.1.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "桃金娘科",
+      "points": [
+        [
+          111.74999999999999,
+          242.0
+        ],
+        [
+          152.25,
+          296.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "桃金娘科",
+      "points": [
+        [
+          335.0,
+          280.75
+        ],
+        [
+          363.0,
+          314.25
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "桃金娘科",
+      "points": [
+        [
+          148.0,
+          384.0
+        ],
+        [
+          177.0,
+          417.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "mask",
+      "flags": {},
+      "mask": "iVBORw0KGgoAAAANSUhEUgAAAB4AAAAiCAAAAABt4zaoAAAAf0lEQVR4nK2S0QrDMAwDT2b//8seLCxtiKJRmB+C08vJTSmsJa1b1/bsKh8sQ7k2X7yORFu45WXlWScb3bCTFW0+vNJkko0GPsskG2WMKmaTbc64G1o+vOfLGdqzeyWImd3hz1whDy/WEfcPm//ibdyz8Ju+J5V7eNX4pmM1595bfxBJdaxEfAAAAABJRU5ErkJggg=="
+    }
+  ],
+  "imagePath": "Group-0222-colors3_pyramid_weighted.jpg",
+  "imageData": null,
+  "imageHeight": 640,
+  "imageWidth": 640
+}

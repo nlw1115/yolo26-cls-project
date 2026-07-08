@@ -133,7 +133,7 @@ internal static class ResultRenderer
         var texts = new List<AnnotationText>(1)
         {
             CreateAnnotationText(
-                $"GT: {annotation.ClassName}",
+                annotation.ClassName,
                 options.AnnotationColor,
                 metrics.AnnotationFontScale,
                 metrics.AnnotationTextThickness)

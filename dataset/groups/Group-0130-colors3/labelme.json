@@ -1,0 +1,388 @@
+{
+  "version": "6.1.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "桃金娘科",
+      "points": [
+        [
+          518.0,
+          5.750000000000002
+        ],
+        [
+          560.0,
+          59.25
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "桃金娘科",
+      "points": [
+        [
+          405.25,
+          63.75
+        ],
+        [
+          454.75,
+          113.25
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "桃金娘科",
+      "points": [
+        [
+          486.781914893617,
+          123.84574468085106
+        ],
+        [
+          531.968085106383,
+          166.8085106382979
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "桃金娘科",
+      "points": [
+        [
+          245.2659574468085,
+          143.93617021276597
+        ],
+        [
+          280.3723404255319,
+          186.48936170212767
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "桃金娘科",
+      "points": [
+        [
+          321.86170212765956,
+          297.12765957446805
+        ],
+        [
+          364.9468085106383,
+          347.65957446808505
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "桃金娘科",
+      "points": [
+        [
+          90.25,
+          314.25000000000006
+        ],
+        [
+          134.75,
+          364.75
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "桃金娘科",
+      "points": [
+        [
+          294.75,
+          344.5
+        ],
+        [
+          329.25,
+          375.5
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "桃金娘科",
+      "points": [
+        [
+          243.75,
+          401.5
+        ],
+        [
+          282.25,
+          450.50000000000006
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "桃金娘科",
+      "points": [
+        [
+          153.75,
+          406.0
+        ],
+        [
+          185.25,
+          451.99999999999994
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "桃金娘科",
+      "points": [
+        [
+          183.25,
+          413.75
+        ],
+        [
+          221.75,
+          460.25000000000006
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "桃金娘科",
+      "points": [
+        [
+          170.5,
+          475.0
+        ],
+        [
+          221.50000000000003,
+          539.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "桃金娘科",
+      "points": [
+        [
+          56.5,
+          497.75000000000006
+        ],
+        [
+          109.50000000000001,
+          556.25
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "桃金娘科",
+      "points": [
+        [
+          325.99999999999994,
+          527.5
+        ],
+        [
+          360.0,
+          572.5
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "桃金娘科",
+      "points": [
+        [
+          351.75,
+          548.5
+        ],
+        [
+          399.25,
+          602.5
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "桃金娘科",
+      "points": [
+        [
+          44.5,
+          571.0
+        ],
+        [
+          73.5,
+          608.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "紫草科",
+      "points": [
+        [
+          457.922078,
+          113.30739300000002
+        ],
+        [
+          496.623377,
+          146.303502
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "紫草科",
+      "points": [
+        [
+          137.0,
+          150.00000000000003
+        ],
+        [
+          209.00000000000003,
+          207.00000000000003
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "紫草科",
+      "points": [
+        [
+          95.844156,
+          234.708171
+        ],
+        [
+          130.12987,
+          273.618677
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "紫草科",
+      "points": [
+        [
+          129.350649,
+          551.284047
+        ],
+        [
+          160.519481,
+          587.70428
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "桃金娘科",
+      "points": [
+        [
+          196.0,
+          608.0
+        ],
+        [
+          229.0,
+          639.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "mask",
+      "flags": {},
+      "mask": "iVBORw0KGgoAAAANSUhEUgAAACIAAAAgCAAAAABS5PUVAAAAdElEQVR4nK2SUQ7AIAxCqfe/M4ubyTathSXrhx/yBNIYKCYAnudOHcMFWd+E0HFf7gJxSYXcp0kCTejoiDKB4xJG0C8IFUEriH90AUjDhQXAEUSjCzWColB7hEoEBkKNYMO8gjImpi6pz/cvldnMLskKjaADvbAVMN5eeQAAAAAASUVORK5CYII="
+    },
+    {
+      "label": "桃金娘科",
+      "points": [
+        [
+          153.0,
+          227.0
+        ],
+        [
+          194.0,
+          282.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "mask",
+      "flags": {},
+      "mask": "iVBORw0KGgoAAAANSUhEUgAAACoAAAA4CAAAAACutjUXAAAAv0lEQVR4nMWWWRKDMAxDZQ/3v7I6obQsNbZCQ+uvoDwUkQUwBGUAGKqJwHPU9pczbcsdXpGr5hW5lkukHdDcE5v+iuQkggAmFcQMSSDbY0kk2gyoJParlaOGO1wxHjU4/xoA8OC8/TKAeXTiv3VlZ1YODsDuyeLQALywWhwZAG+0sm39F3YWdRQpe/gWUHYFWMD+MY6GImUdAvtUPVTDMkWLXRNnj2UZ5S2uCG0Hv96WMU7QbYJXuyNA8WexdX8AHHwkX8DYjRgAAAAASUVORK5CYII="
+    }
+  ],
+  "imagePath": "Group-0130-colors3_pyramid_weighted.jpg",
+  "imageData": null,
+  "imageHeight": 640,
+  "imageWidth": 640
+}

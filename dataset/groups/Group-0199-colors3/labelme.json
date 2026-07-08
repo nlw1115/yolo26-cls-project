@@ -1,0 +1,118 @@
+{
+  "version": "6.1.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "桃金娘科",
+      "points": [
+        [
+          608.0,
+          194.0
+        ],
+        [
+          640.0,
+          254.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "紫草科",
+      "points": [
+        [
+          413.506494,
+          202.023346
+        ],
+        [
+          442.337662,
+          235.953307
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "紫草科",
+      "points": [
+        [
+          356.1038960000001,
+          326.848249
+        ],
+        [
+          387.532468,
+          366.070039
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "紫草科",
+      "points": [
+        [
+          357.402597,
+          373.8521400000001
+        ],
+        [
+          381.818182,
+          407.470817
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "紫草科",
+      "points": [
+        [
+          332.987013,
+          395.019455
+        ],
+        [
+          356.1038960000001,
+          424.5914399999999
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "桃金娘科",
+      "points": [
+        [
+          528.0,
+          190.0
+        ],
+        [
+          568.0,
+          234.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "mask",
+      "flags": {},
+      "mask": "iVBORw0KGgoAAAANSUhEUgAAACkAAAAtCAAAAAAWmh08AAAAx0lEQVR4nLWU4Q6EIAyDu8X3f+VeMF6Q0WmTy/FDZXy0GwKBpcV4cI3dh27v2SofDbfD0XMFjmfwxocDYrBpcUAgPUnA1kTYJP5C0gTpatJ158jTsadbEZ29NLfT0Gz9zwFenSf3VSFdECcp7WswZVRNOHqgnOjUVkDUo5+N5r7GKa2/UhQkXxShKpqTlunZ5Ln75Mu4IFmK0X/Taoe4qXQCqYLyZg75qQrLJqs9gXRB/Hov0SZtTXs99Z8XZLNFluUenfaYfgCoMTI5VQ2j4gAAAABJRU5ErkJggg=="
+    }
+  ],
+  "imagePath": "Group-0199-colors3_pyramid_weighted.jpg",
+  "imageData": null,
+  "imageHeight": 640,
+  "imageWidth": 640
+}

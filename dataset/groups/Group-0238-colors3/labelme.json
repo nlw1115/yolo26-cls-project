@@ -1,0 +1,118 @@
+{
+  "version": "6.1.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "桃金娘科",
+      "points": [
+        [
+          540.0,
+          262.25
+        ],
+        [
+          576.0,
+          304.75
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "桃金娘科",
+      "points": [
+        [
+          175.25000000000003,
+          516.0
+        ],
+        [
+          215.75,
+          568.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "桃金娘科",
+      "points": [
+        [
+          494.74999999999994,
+          556.0
+        ],
+        [
+          556.25,
+          623.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "豆科",
+      "points": [
+        [
+          103.75,
+          307.75
+        ],
+        [
+          140.25,
+          345.25
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "豆科",
+      "points": [
+        [
+          434.00000000000006,
+          500.25
+        ],
+        [
+          470.0,
+          542.75
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "紫草科",
+      "points": [
+        [
+          80.0,
+          113.0
+        ],
+        [
+          108.0,
+          151.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "mask",
+      "flags": {},
+      "mask": "iVBORw0KGgoAAAANSUhEUgAAAB0AAAAnCAAAAADWGRwYAAAAfklEQVR4nLWUUQoAIQgFn7L3v/JblrLNSoOgvtJptIgSuCFtRh9iCOgT4st8/AnZNzSBYnRpoqYDCM0gNIPQDEIzCDtRQDMVGxfHlOcu7+0KlygB5b2+jNtiW5mhiv2uGKnFnXHNrCvb8kIHuYXVdfgPrHKHu+n0M4S3Mj+LFwfHF0J53VoZAAAAAElFTkSuQmCC"
+    }
+  ],
+  "imagePath": "Group-0238-colors3_pyramid_weighted.jpg",
+  "imageData": null,
+  "imageHeight": 640,
+  "imageWidth": 640
+}

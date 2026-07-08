@@ -36,11 +36,6 @@ weights/*.onnx
 weights/*.bin
 weights/*.xml
 
-# Dataset images (large binary files)
-dataset/groups/
-dataset/fused_labelme/*.jpg
-dataset/fused_labelme/*.png
-
 # Runs / outputs
 runs/
 *.zip
